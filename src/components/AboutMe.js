@@ -19,10 +19,10 @@ const AboutMe = () => {
                 <div className="skills-container">
                     <h4>Programming Skills</h4>
                     <ul>
-                        <li><img src={'%PUBLIC_URL%/images/html-logo.svg'} /></li>
-                        <li><img src={'%PUBLIC_URL%/images/css-logo.svg'} /></li>
-                        <li><img src={'%PUBLIC_URL%/images/javascript-logo.svg'} /></li>
-                        <li><img src={'%PUBLIC_URL%/images/react-logo-2.svg'} /></li>
+                        <li><img src={'/images/html-logo.svg'} /></li>
+                        <li><img src={'/images/css-logo.svg'} /></li>
+                        <li><img src={'/images/javascript-logo.svg'} /></li>
+                        <li><img src={'/images/react-logo-2.svg'} /></li>
                         <li><img src={'/images/sass-logo.svg'} /></li>
                         <li><img src={'/images/jquery-logo.svg'} /></li>
                         <li><img src={'/images/node-logo-2.svg'} /></li>
