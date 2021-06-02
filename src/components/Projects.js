@@ -21,7 +21,7 @@ const Projects = () => {
                     <ul>
                         { projectList }
                     </ul>
-                <p><a href="#">View Complete Projects in Github &#62;</a></p>
+                <p><a href="https://github.com/andrehhh?tab=repositories">View Complete Projects in Github &#62;</a></p>
             </div>
         </div>
     )

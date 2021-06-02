@@ -14,19 +14,19 @@
             "name": "My Portfolio V2",
             "description": "My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma.",
             "imgLink": 2,
-            "link": "#"
+            "link": "https://github.com/andrehhh/my-portfolio-react"
         }, 
         {
             "name": "Air and Sound Pollution Monitoring System",
             "description": "An Arduino-based IoT project that allows users to measure different gas concentration levels as well as noise levels remotelt. From the carbon dioxide concentration, an Air Quality Index Value and Rating is calculated and shown to the user to ease understanding.",
             "imgLink": 1,
-            "link": "#"
+            "link": "https://github.com/andrehhh/air_and_sound_monitoring_system"
         }, 
         {
             "name": "Water Sedimentation Analysis",
             "description": "This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project. I used Python’s Flask and other libraries such as pandas, boto3, and os that is essential for this project. We used Amazon’s S3 as our database system as well as Amazon’s EC2 for hosting the Flask application.",
             "imgLink": 0,
-            "link": "#"
+            "link": "https://github.com/mfikryrizal/RiverApp"
         }
     ]
 }
