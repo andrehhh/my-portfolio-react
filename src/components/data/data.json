@@ -1,0 +1,32 @@
+{
+    "about": "I am a final year Computer Science student who loves to design application user interfaces, as well as develop web applications, both frontend and backend. I specialize in developing web applications using frameworks such as React and Node.",
+    "email": "andrehanjaya9@gmail.com",
+    "phone": "+60-166933058",
+    "linkedin": "https://www.linkedin.com/in/andrehanjaya9/",
+    "github": "https://github.com/andrehhh",
+    "whatsapp": "https://wa.link/c5m89f",
+    "facebook": "#",
+    "instagram": "https://www.instagram.com/dredre_02/",
+    "twitter": "#",
+
+    "projects": [
+        {
+            "name": "My Portfolio V2",
+            "description": "My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma.",
+            "image": "MyPortfolioScreenshot.png",
+            "link": "#"
+        }, 
+        {
+            "name": "Air and Sound Pollution Monitoring System",
+            "description": "An Arduino-based IoT project that allows users to measure different gas concentration levels as well as noise levels remotelt. From the carbon dioxide concentration, an Air Quality Index Value and Rating is calculated and shown to the user to ease understanding.",
+            "image": "AirAndSoundPollutionScreenshot.png",
+            "link": "#"
+        }, 
+        {
+            "name": "Water Sedimentation Analysis",
+            "description": "This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project. I used Python’s Flask and other libraries such as pandas, boto3, and os that is essential for this project. We used Amazon’s S3 as our database system as well as Amazon’s EC2 for hosting the Flask application.",
+            "image": "AirAndSoundPollutionScreenshot.png",
+            "link": "#"
+        }
+    ]
+}
