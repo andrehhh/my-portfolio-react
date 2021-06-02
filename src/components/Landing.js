@@ -3,6 +3,13 @@ import { Link } from 'react-scroll';
 
 import data from './data/data.json';
 
+import mailLogo from '../images/mail-logo.svg';
+import linkedinLogo from '../images/linkedin-logo.svg';
+import githubLogo from '../images/github-logo.svg';
+
+import stripes from '../images/2stripes.png';
+import landingImage from '../images/landing-photo.jpg';
+
 const Landing = () => {
     return (
         <div className="landing">
@@ -52,15 +59,15 @@ const Landing = () => {
                 <div className="landing-right">
                     <div className="landing-right-container">
                     <ul>
-                        <li><a href={"mailto:" + data.email}><img src={'/images/mail-logo.svg'} alt="mail-logo" /></a></li>
-                        <li><a href={data.linkedin} target="_blank"><img src={'/images/linkedin-logo.svg'} alt="linkedin-logo" /></a></li>
-                        <li><a href={data.github} target="_blank"><img src={'/images/github-logo.svg'} alt="github-logo" /></a></li>
+                        <li><a href={"mailto:" + data.email}><img src={mailLogo} alt="mail-logo" /></a></li>
+                        <li><a href={data.linkedin} target="_blank"><img src={linkedinLogo} alt="linkedin-logo" /></a></li>
+                        <li><a href={data.github} target="_blank"><img src={githubLogo} alt="github-logo" /></a></li>
                     </ul>
                     </div>
                 </div>
             </div>
-            <img className="stripes-img" src={'/images/2stripes.png'} />
-            <img className="landing-image" src={'/images/landing-photo.jpg'} alt="landing-image" />
+            <img className="stripes-img" src={stripes} alt="stripes" />
+            <img className="landing-image" src={landingImage} alt="landing-image" />
         </div>
     )
 }

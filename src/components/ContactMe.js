@@ -2,6 +2,14 @@ import React from 'react'
 
 import data from '../components/data/data.json';
 
+import mailLogo from '../images/mail-logo.svg';
+import linkedinLogo from '../images/linkedin-logo.svg';
+import phoneLogo from '../images/phone-logo.svg';
+import whatsappLogo from '../images/whatsapp-logo.svg';
+import instagramLogo from '../images/instagram-logo.svg';
+import twitterLogo from '../images/twitter-logo.svg';
+import facebookLogo from '../images/facebook-logo.svg';
+
 const ContactMe = () => {
     return (
         <div className="contact-me container">
@@ -10,11 +18,11 @@ const ContactMe = () => {
                 <div className="contact-me-left">
                     <ul>
                     <li>
-                        <img src={'/images/mail-logo.svg'} />
+                        <img src={mailLogo} />
                         <p>{data.email}</p>
                     </li>
                     <li>
-                        <img src={'/images/phone-logo.svg'} />
+                        <img src={phoneLogo} />
                         <p>{data.phone}</p>
                     </li>
                     </ul>
@@ -23,31 +31,31 @@ const ContactMe = () => {
                     <ul>
                     <li>
                         <a href={data.whatsapp} target="_blank">
-                        <img src={'/images/whatsapp-logo.svg'} />
+                        <img src={whatsappLogo} />
                         <p>Whatsapp</p>
                         </a>
                     </li>
                     <li>
                         <a href={data.instagram} target="_blank">
-                        <img src={'/images/instagram-logo.svg'} />
+                        <img src={instagramLogo} />
                         <p>Instagram</p>
                         </a>
                     </li>
                     <li>
                         <a href={data.twitter} target="_blank">
-                        <img src={'/images/twitter-logo.svg'} />
+                        <img src={twitterLogo} />
                         <p>Twitter</p>
                         </a>
                     </li>
                     <li>
                         <a href={data.linkedin} target="_blank">
-                        <img src={'/images/linkedin-logo.svg'} />
+                        <img src={linkedinLogo} />
                         <p>LinkedIn</p>
                         </a>
                     </li>
                     <li>
                         <a href={data.facebook} target="_blank">
-                        <img src={'/images/facebook-logo.svg'} />
+                        <img src={facebookLogo} />
                         <p>Facebook</p>
                         </a>
                     </li>

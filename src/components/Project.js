@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Project = ({name, description, image, link}) => {
     return (
         <li>
-            <img src={'/images/' + image} />
+            <img src={image} />
             <div>
                 <h3>{name}</h3>
                 <p>{description}</p>
