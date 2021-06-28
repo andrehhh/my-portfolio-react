@@ -14,7 +14,7 @@ import facebookLogo from '../images/facebook-logo.svg';
 
 const Contact = () => {
 	return (
-		<section className="contact">
+		<section className="contact" id="contact">
 			<div className="container">
 				<h2>Contact Me</h2>
 				<div className="contact-hero">
@@ -40,27 +40,27 @@ const Contact = () => {
 						</div>
 					</div>
 					<div className="socials">
-						<a href={data.github} target="_blank" className="link">
+						<a href={data.github} target="_blank" className="link" rel="noreferrer">
 							<img src={githubLogo} alt="githubLogo" />
 							<h6>Github</h6>
 						</a>
-						<a href={data.linkedin} target="_blank" className="link">
+						<a href={data.linkedin} target="_blank" className="link" rel="noreferrer">
 							<img src={linkedinLogo} alt="linkedinLogo" />
 							<h6>LinkedIn</h6>
 						</a>
-						<a href={data.whatsapp} target="_blank" className="link">
+						<a href={data.whatsapp} target="_blank" className="link" rel="noreferrer">
 							<img src={whatsappLogo} alt="whatsappLogo" />
 							<h6>Whatsapp</h6>
 						</a>
-						<a href={data.instagram} target="_blank" className="link">
+						<a href={data.instagram} target="_blank" className="link" rel="noreferrer">
 							<img src={instagramLogo} alt="instagramLogo" />
 							<h6>Instagram</h6>
 						</a>
-						<a href={data.twitter} target="_blank" className="link">
+						<a href={data.twitter} target="_blank" className="link" rel="noreferrer">
 							<img src={twitterLogo} alt="twitterLogo" />
 							<h6>Twitter</h6>
 						</a>
-						<a href={data.facebook} target="_blank" className="link">
+						<a href={data.facebook} target="_blank" className="link" rel="noreferrer">
 							<img src={facebookLogo} alt="facebookLogo" />
 							<h6>Facebook</h6>
 						</a>

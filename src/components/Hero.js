@@ -5,7 +5,7 @@ import waveImage from '../images/wave.png'
 
 const Hero = () => {
 	return (
-		<section className="hero">
+		<section className="hero" id="hero">
 			<div className="container">
 				<div>
 					<h1>Beautifully Crafted<br />Web Application</h1>

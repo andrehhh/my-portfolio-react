@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from 'react-scroll'
 
 import React from 'react'
 
@@ -7,10 +8,25 @@ const Navbar = () => {
 		<section className="navbar container">
 			<div className="logo">Dre</div>
 			<ul className="nav-links">
-				<li>Home</li>
-				<li>Projects</li>
-				<li>About</li>
-				<li>Contact</li>
+				<Link to="/projects" className="white-link">Projects</Link>
+				<ScrollLink
+				activeClass="active"
+				to="about"
+				spy={true}
+				smooth={true}
+				duration={700}
+				className="white-link">
+					About
+			</ScrollLink>
+			<ScrollLink
+				activeClass="active"
+				to="contact"
+				spy={true}
+				smooth={true}
+				duration={700}
+				className="white-link">
+					Contact
+			</ScrollLink>
 			</ul>
 		</section>
 	)

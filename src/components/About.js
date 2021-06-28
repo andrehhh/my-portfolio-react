@@ -24,7 +24,7 @@ import adobexdLogo from '../images/adobexd-logo.svg';
 
 const About = () => {
 	return (
-		<section className="about">
+		<section className="about" id="about">
 			<div className="container">
 				<h2>About Me</h2>
 				<div className="intro">
