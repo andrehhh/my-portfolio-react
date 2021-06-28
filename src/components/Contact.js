@@ -22,8 +22,8 @@ const Contact = () => {
 					<div className="form">
 						<h3>Leave me a mail</h3>
 						<form>
-							<input type="text" />
-							<textarea />
+							<input type="text" placeholder="From (email)" />
+							<textarea placeholder="Message" />
 							<button type="submit">Submit</button>
 						</form>
 					</div>
