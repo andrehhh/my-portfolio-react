@@ -1,20 +1,27 @@
 import './App.scss';
 
-import Landing from './components/Landing';
-import WhatIDo from './components/WhatIDo';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 import Projects from './components/Projects';
-import AboutMe from './components/AboutMe';
-import ContactMe from './components/ContactMe';
 
 function App() {
   return (
     <div className="App">
 
-      <Landing />
-      <WhatIDo />
-      <Projects />
-      <AboutMe />
-      <ContactMe />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path="/projects">
+            <Projects />
+          </Route>
+        </Switch>
+      </Router>
+      
       
     </div>
   );
