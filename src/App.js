@@ -4,25 +4,18 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Projects from './components/Projects';
+import Projects from './pages/Projects';
 
 function App() {
   return (
     <div className="App">
-
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
+          <Route exact path="/" component={Home}></Route>
+          <Route exact path="/projects" component={Projects}></Route>
         </Switch>
       </Router>
-      
-      
     </div>
   );
 }
