@@ -17,7 +17,8 @@
 			"skills": ["html", "css", "javascript", "react", "sass", "git"],
 			"image": "https://i.ibb.co/QPLnvf8/Screenshot-2021-06-29-at-2-59-13-PM.png",
 			"desc": [
-				"My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma."
+				"My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma.",
+				"Implemented array manipulation technique like map, as well as using hooks such as useState, useEffect, and useContext. The projects section is mapped from a json file, which is fully dynamic."
 			]
 		},
 		{
@@ -28,9 +29,7 @@
 			"image": "https://i.ibb.co/FXNsF9C/Air-And-Sound-Pollution-Screenshot.png",
 			"desc": [
 				"An arduino-based project that consists of an Arduino device alongside multiple ambient and gas sensors that enables users to collect environmental data such as temperature, humidity, and air quality score and view it in real time from the web browser.",
-				"The data is sent from the Arduino device to the database through the internet with the help of the wifi receiver plugged into the Arduino device. I subscribed to a cloud VM platform that hosts the backend software that I developed using Node and Express, and it can handle the incoming data from the Arduino device. The data received will then be stored in the MongoDB database which is also hosted in the server under a different port.",
-				"The user are also able to view the data in real time from their web browsers. The frontend application is developed with vanilla HTML and CSS. Users are also able to view the history reading of the sensors in the last 12 hours. We recollected all records from the database inserted in the last 12 hours, and plot it into a chart using Plotly."
-
+				"I used a cloud VM that hosts a Node and Express backend that handles the data from the arduino and saves it into a mongoDB database. The data is collected from the DB is then shown on the web browsers using vanilla HTML & CSS, and I also used Plotly.js to plot line charts"
 			]
 		}, 
 		{
@@ -40,7 +39,8 @@
 			"skills": ["python", "flask"],
 			"image": "https://i.ibb.co/FXNsF9C/Air-And-Sound-Pollution-Screenshot.png",
 			"desc": [
-				"This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project. I used Python’s Flask and other libraries such as pandas, boto3, and os that is essential for this project. We used Amazon’s S3 as our database system as well as Amazon’s EC2 for hosting the Flask application."
+				"This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project.",
+				"I used Python’s Flask and other libraries such as pandas for csv manipulation, and boto3 for connecting our flask backend with AWS's S3 bucket database in order to save the results of the analysis."
 			]
 		}
 	]

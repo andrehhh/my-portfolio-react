@@ -65,13 +65,15 @@ const Projects = ({ location }) => {
 									</div>
 								</div>
 								<div className="project-desc">
+									<ul>
 									{
 										desc.map((description, index) => {
 											return (
-												<p key={index}>{description}</p>
+												<li key={index}><p>{description}</p></li>
 											)
 										})
 									}
+									</ul>
 								</div>
 							</div>
 							<div className="project-links">
