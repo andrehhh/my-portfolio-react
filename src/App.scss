@@ -382,11 +382,14 @@ button {
         column-gap: 3rem;
 
         h4 {
-          margin-bottom: 1.5rem;
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
         }
 
         img {
-          width: 100%;
+          max-width: 100%;
+          max-height: 380px;
+          margin: auto auto;
         }
       }
 
@@ -394,8 +397,13 @@ button {
         margin-top: 1.5rem;
         width: calc(100% - 6rem);
 
+        ul li {
+          list-style-type: disc;
+        }
+
         p {
-          margin-top: 1rem;
+          margin-bottom: 0.5rem;
+          font-size: 1rem;
         }
       }
 
@@ -407,6 +415,14 @@ button {
         column-gap: 1.5rem;
         align-self: flex-end;
         margin-bottom: 6rem;
+
+        .site-button {
+          background-color: #A259FF;
+        }
+
+        .github-button {
+          background-color: #44CB99;
+        }
       }
     }
 
@@ -427,7 +443,7 @@ button {
       display: grid;
       grid-template-columns: repeat(3, 30%);
       column-gap: 5%;
-      row-gap: 2rem;
+      row-gap: 1rem;
 
       .card {
         background-color: #FFFFFF;
@@ -439,7 +455,7 @@ button {
         box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15), -3px -4px 5px #FFFFFF;
 
         img {
-          height: 50px;
+          height: 40px;
         }
       }
     }
@@ -461,6 +477,16 @@ button {
 @media only screen and (max-width: 1800px) {
   .container {
     width: 80%;
+  }
+
+  .projects {
+    .prevBtn {
+      left: 2.5%;
+    }
+
+    .nextBtn {
+      right: 2.5%;
+    }
   }
 }
 
@@ -517,6 +543,35 @@ button {
 
   .contact .contacts {
     padding: 3rem 3rem 0 3rem;
+  }
+
+  .projects {
+    .prevBtn, .nextBtn {
+      height: 50px;
+      width: 50px;
+
+      img {
+        height: 40px;
+        width: 40px;
+      }
+    }
+
+    .project-card .project-card-content {
+      .project-hero h4 {
+        margin-bottom: 1rem;
+      }
+      .project-skill-cards {
+        row-gap: 1rem;
+
+        .card img{
+          height: 30px;
+        }
+      }
+
+      .project-links button{
+        font-size: 0.9rem;
+      }
+    }
   }
 }
 
@@ -690,6 +745,58 @@ button {
       }
     }
   }
+
+  .projects {
+    .prevBtn {
+      left: 1%
+    }
+
+    .nextBtn {
+      right: 1%
+    }
+
+    .project-card .project-card-content {
+      margin: 1rem 3rem 1rem 3rem;
+
+      .project-hero {
+        width: calc(100% - 6rem);
+        grid-template-columns: none;
+        grid-template-rows: auto auto;
+        row-gap: 2rem;
+
+        h4 {
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+        }
+
+        img {
+          max-height: 200px;
+        }
+      }
+      .project-skill-cards {
+        grid-template-columns: repeat(5, 18%);
+        column-gap: 2.5%;
+        row-gap: 1rem;
+
+        .card {
+          padding: 0.7rem;
+
+          img{
+            height: 30px;
+          }
+        }
+      }
+
+      .project-desc p {
+        font-size: 0.65rem;
+      }
+
+      .project-links button{
+        font-size: 0.8rem;
+        padding: 0 1rem;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -801,6 +908,68 @@ button {
 
         h6 {
           font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .projects {
+    .prevBtn, .nextBtn {
+      height: 40px;
+      width: 40px;
+
+      img {
+        height: 30px;
+        width: 30px;
+      }
+    }
+
+    .project-card {
+      margin-top: 5%;
+      height: 85%;
+      
+      .project-card-content {
+
+        h3 {
+          font-size: 1.2rem;
+        }
+
+        .project-hero {
+          width: calc(100% - 6rem);
+          grid-template-columns: none;
+          grid-template-rows: auto auto;
+          row-gap: 1rem;
+
+          h4 {
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+          }
+
+          img {
+            max-height: 150px;
+          }
+        }
+        .project-skill-cards {
+          grid-template-columns: repeat(3, 30%);
+          column-gap: 5%;
+          row-gap: 0.5rem;
+
+          .card {
+            padding: 0.7rem;
+
+            img{
+              height: 20px;
+            }
+          }
+        }
+
+        .project-desc p {
+          font-size: 0.6rem;
+        }
+
+        .project-links button{
+          font-size: 0.7rem;
+          padding: 0 1rem;
         }
       }
     }

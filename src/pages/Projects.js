@@ -65,18 +65,24 @@ const Projects = ({ location }) => {
 									</div>
 								</div>
 								<div className="project-desc">
+									<ul>
 									{
 										desc.map((description, index) => {
 											return (
-												<p key={index}>{description}</p>
+												<li key={index}><p>{description}</p></li>
 											)
 										})
 									}
+									</ul>
 								</div>
 							</div>
 							<div className="project-links">
-								{ githubLink && <button>View on Github</button> }
-								{ link && <button>View site</button> }
+								<div>
+									{ link && <button className="site-button">View site</button> }
+								</div>
+								<div>
+									{ githubLink && <button className="github-button">View on Github</button> }
+								</div>
 							</div>
 						</div>
 					)

@@ -1,7 +1,7 @@
 {
 	"about": "I am a final year Computer Science student who loves to design application user interfaces, as well as develop web applications, both frontend and backend. I specialize in developing web applications using frameworks such as React and Node.",
 	"email": "andrehanjaya9@gmail.com",
-	"phone": "+60-166933058",
+	"phone": "+62-788-3010-222",
 	"linkedin": "https://www.linkedin.com/in/andrehanjaya9/",
 	"github": "https://github.com/andrehhh",
 	"whatsapp": "https://wa.link/c5m89f",
@@ -11,13 +11,56 @@
 
 	"projects": [
 		{
+			"name": "Cocktails DB",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/15-cocktails/setup",
+			"link": "https://andrehhh-cocktails-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/JKqdtNh/Screenshot-2021-07-01-at-12-12-03-PM.png",
+			"desc": [
+				"This project is built with React. I implemented the application using different react hooks such as useState, useEffect, useRef, and 'react-router-dom' components such as Router, Switch, Route, and Link. Also used useContext to create a new custom hook that allows the values of the context to be accessible across the whole application.",
+				"I used array manipulation techniques such as map and filter, as well as filtering data from object keys and many more. All data from the application is fetched from an external open-source API from TheCocktailDB"
+			]
+		},
+		{
+			"name": "Cart",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/14-cart/setup",
+			"link": "https://andrehhh-cart-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/ccSRJz3/Screenshot-2021-07-01-at-12-20-04-PM.png",
+			"desc": [
+				"It is a React based project which focuses on the use of the useReducer hook, while the project itself uses useReducer, useEffect, and useContext.",
+				"useReducer allows me to put all state changes in a single file called reducers which have action types and payloads, while useContext allows me to make all functions accessible across the whole application by wrapping the App component with Context.Provider component."
+			]
+		},
+		{
+			"name": "Sidebar & Modal",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/12-sidebar-modal/setup",
+			"link": "https://andrehhh-sidebar-modal-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/KqFNPyj/Screenshot-2021-07-01-at-12-36-54-PM.png",
+			"desc": [
+				"This React app is built with all the basic react hooks, but implementing functions such as hiding/showing a modal, as well as opening and closing a sidebar."
+			]
+		},
+		{
+			"name": "Grocery Bud",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/10-grocery-bud/setup",
+			"link": "https://andrehhh-grocery-bud-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/vwhjSyF/Screenshot-2021-07-01-at-12-56-05-PM.png",
+			"desc": [
+				"This React app is built with all the basic react hooks such as useState, useEffect, useRef, forms, and conditional rendering."
+			]
+		},
+		{
 			"name": "My Portfolio V2",
 			"githubLink": "https://github.com/andrehhh/my-portfolio-react",
 			"link": "",
 			"skills": ["html", "css", "javascript", "react", "sass", "git"],
 			"image": "https://i.ibb.co/QPLnvf8/Screenshot-2021-06-29-at-2-59-13-PM.png",
 			"desc": [
-				"My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma."
+				"My second version of my personal portfolio which is fully responsive for both tablets and mobile phones. It is built on React.js and Sass, and the UI/UX design is developed with Figma.",
+				"Implemented array manipulation technique like map, as well as using hooks such as useState, useEffect, and useContext. The projects section is mapped from a json file, which is fully dynamic."
 			]
 		},
 		{
@@ -28,9 +71,7 @@
 			"image": "https://i.ibb.co/FXNsF9C/Air-And-Sound-Pollution-Screenshot.png",
 			"desc": [
 				"An arduino-based project that consists of an Arduino device alongside multiple ambient and gas sensors that enables users to collect environmental data such as temperature, humidity, and air quality score and view it in real time from the web browser.",
-				"The data is sent from the Arduino device to the database through the internet with the help of the wifi receiver plugged into the Arduino device. I subscribed to a cloud VM platform that hosts the backend software that I developed using Node and Express, and it can handle the incoming data from the Arduino device. The data received will then be stored in the MongoDB database which is also hosted in the server under a different port.",
-				"The user are also able to view the data in real time from their web browsers. The frontend application is developed with vanilla HTML and CSS. Users are also able to view the history reading of the sensors in the last 12 hours. We recollected all records from the database inserted in the last 12 hours, and plot it into a chart using Plotly."
-
+				"I used a cloud VM that hosts a Node and Express backend that handles the data from the arduino and saves it into a mongoDB database. The data is collected from the DB is then shown on the web browsers using vanilla HTML & CSS, and I also used Plotly.js to plot line charts"
 			]
 		}, 
 		{
@@ -38,9 +79,10 @@
 			"githubLink": "https://github.com/mfikryrizal/RiverApp",
 			"link": "",
 			"skills": ["python", "flask"],
-			"image": "https://i.ibb.co/FXNsF9C/Air-And-Sound-Pollution-Screenshot.png",
+			"image": "https://i.ibb.co/gvDPhWd/Screenshot-2021-07-01-at-1-37-52-PM.png",
 			"desc": [
-				"This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project. I used Python’s Flask and other libraries such as pandas, boto3, and os that is essential for this project. We used Amazon’s S3 as our database system as well as Amazon’s EC2 for hosting the Flask application."
+				"This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project.",
+				"I used Python’s Flask and other libraries such as pandas for csv manipulation, and boto3 for connecting our flask backend with AWS's S3 bucket database in order to save the results of the analysis."
 			]
 		}
 	]
