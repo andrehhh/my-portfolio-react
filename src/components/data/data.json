@@ -1,7 +1,7 @@
 {
 	"about": "I am a final year Computer Science student who loves to design application user interfaces, as well as develop web applications, both frontend and backend. I specialize in developing web applications using frameworks such as React and Node.",
 	"email": "andrehanjaya9@gmail.com",
-	"phone": "+60-166933058",
+	"phone": "+62-788-3010-222",
 	"linkedin": "https://www.linkedin.com/in/andrehanjaya9/",
 	"github": "https://github.com/andrehhh",
 	"whatsapp": "https://wa.link/c5m89f",
@@ -10,6 +10,48 @@
 	"twitter": "#",
 
 	"projects": [
+		{
+			"name": "Cocktails DB",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/15-cocktails/setup",
+			"link": "https://andrehhh-cocktails-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/JKqdtNh/Screenshot-2021-07-01-at-12-12-03-PM.png",
+			"desc": [
+				"This project is built with React. I implemented the application using different react hooks such as useState, useEffect, useRef, and 'react-router-dom' components such as Router, Switch, Route, and Link. Also used useContext to create a new custom hook that allows the values of the context to be accessible across the whole application.",
+				"I used array manipulation techniques such as map and filter, as well as filtering data from object keys and many more. All data from the application is fetched from an external open-source API from TheCocktailDB"
+			]
+		},
+		{
+			"name": "Cart",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/14-cart/setup",
+			"link": "https://andrehhh-cart-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/ccSRJz3/Screenshot-2021-07-01-at-12-20-04-PM.png",
+			"desc": [
+				"It is a React based project which focuses on the use of the useReducer hook, while the project itself uses useReducer, useEffect, and useContext.",
+				"useReducer allows me to put all state changes in a single file called reducers which have action types and payloads, while useContext allows me to make all functions accessible across the whole application by wrapping the App component with Context.Provider component."
+			]
+		},
+		{
+			"name": "Sidebar & Modal",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/12-sidebar-modal/setup",
+			"link": "https://andrehhh-sidebar-modal-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/KqFNPyj/Screenshot-2021-07-01-at-12-36-54-PM.png",
+			"desc": [
+				"This React app is built with all the basic react hooks, but implementing functions such as hiding/showing a modal, as well as opening and closing a sidebar."
+			]
+		},
+		{
+			"name": "Grocery Bud",
+			"githubLink": "https://github.com/andrehhh/react-projects/tree/master/10-grocery-bud/setup",
+			"link": "https://andrehhh-grocery-bud-react.netlify.app/",
+			"skills": ["react"],
+			"image": "https://i.ibb.co/vwhjSyF/Screenshot-2021-07-01-at-12-56-05-PM.png",
+			"desc": [
+				"This React app is built with all the basic react hooks such as useState, useEffect, useRef, forms, and conditional rendering."
+			]
+		},
 		{
 			"name": "My Portfolio V2",
 			"githubLink": "https://github.com/andrehhh/my-portfolio-react",
@@ -37,7 +79,7 @@
 			"githubLink": "https://github.com/mfikryrizal/RiverApp",
 			"link": "",
 			"skills": ["python", "flask"],
-			"image": "https://i.ibb.co/FXNsF9C/Air-And-Sound-Pollution-Screenshot.png",
+			"image": "https://i.ibb.co/gvDPhWd/Screenshot-2021-07-01-at-1-37-52-PM.png",
 			"desc": [
 				"This project enables users to measure the water sedimentation level by taking a picture with their mobile phones. I am responsible of handling the backend system of this project.",
 				"I used Python’s Flask and other libraries such as pandas for csv manipulation, and boto3 for connecting our flask backend with AWS's S3 bucket database in order to save the results of the analysis."

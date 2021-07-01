@@ -77,8 +77,12 @@ const Projects = ({ location }) => {
 								</div>
 							</div>
 							<div className="project-links">
-								{ githubLink && <button>View on Github</button> }
-								{ link && <button>View site</button> }
+								<div>
+									{ link && <button className="site-button">View site</button> }
+								</div>
+								<div>
+									{ githubLink && <button className="github-button">View on Github</button> }
+								</div>
 							</div>
 						</div>
 					)
