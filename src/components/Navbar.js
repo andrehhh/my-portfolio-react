@@ -12,25 +12,10 @@ const Navbar = () => {
 			<section className="navbar container">
 				<div className="logo"><Link to="/" className="link">Dre</Link></div>
 				<ul className="nav-links">
+					<div></div>
+					<div></div>
+					<div></div>
 					<Link to="/projects" className="link">Projects</Link>
-					<ScrollLink
-					activeClass="active"
-					to="about"
-					spy={true}
-					smooth={true}
-					duration={700}
-					className="link">
-						About
-				</ScrollLink>
-				<ScrollLink
-					activeClass="active"
-					to="contact"
-					spy={true}
-					smooth={true}
-					duration={700}
-					className="link">
-						Contact
-				</ScrollLink>
 				</ul>
 			</section>
 		)
