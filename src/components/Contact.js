@@ -17,7 +17,7 @@ const Contact = () => {
 		<section className="contact" id="contact">
 			<div className="container">
 				<h2>Contact Me</h2>
-				<div className="contact-hero">
+				{/* <div className="contact-hero">
 					<img src={mailImage} alt="mailImage"/>
 					<div className="form">
 						<h3>Leave me a mail</h3>
@@ -27,7 +27,7 @@ const Contact = () => {
 							<button type="submit">Submit</button>
 						</form>
 					</div>
-				</div>
+				</div> */}
 				<div className="contacts">
 					<div className="non-socials">
 						<div className="link">

@@ -17,12 +17,12 @@ const WhatIDo = () => {
 					</div>
 					<div className="card-2">
 						<img src={reactLogo} alt="reactLogo" />
-						<h5>Frontend Web Developer</h5>
+						<h5>Frontend Development</h5>
 						<p>As a developer, it is our first priority to build user-friendly applications. I specialize in frontend frameworks such as React.js, Sass, JQuery, and Ajax.</p>
 					</div>
 					<div className="card-3">
 						<img src={nodeLogo} alt="nodeLogo" />
-						<h5>UI/UX Design</h5>
+						<h5>Backend Development</h5>
 						<p>Storing data in the server is essential in web applications. Building connections to the server using Node.js and Express JS is one of my strong abilities. </p>
 					</div>
 				</div>
